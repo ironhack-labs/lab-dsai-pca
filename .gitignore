@@ -1,0 +1,114 @@
+# =========================
+
+# Virtual Environments
+
+# =========================
+
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+
+# Python Cache / Compiled
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+
+# Jupyter Notebook
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Data Files (large)
+
+# =========================
+
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.h5
+
+# =========================
+
+# ML Models / Artifacts
+
+# =========================
+
+models/
+*.pkl
+*.joblib
+*.model
+
+# =========================
+
+# Environment Variables / Secrets
+
+# =========================
+
+.env
+.env.*
+*.env
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+logs/
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# IDE / Editor
+
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+
+# Python Packaging
+
+# =========================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+
+# Testing / Coverage
+
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
